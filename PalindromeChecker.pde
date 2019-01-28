@@ -30,7 +30,7 @@ public String reverse(String str)
       sNew = sNew + str.substring(i,i+1);
     }
     String n1 = onlyLetters(sNew);
-    return sNew;
+    return n1;
 }
 public String noSpaces(String sWord){
   String result = new String();
